@@ -5,8 +5,8 @@
 This project implements a **simple 4-bit processor** using **Verilog HDL**.  
 The processor is designed with a **custom instruction set** and demonstrates the core concepts of CPU operation such as instruction fetch, decode, execute, and write-back.
 
-The design includes fundamental CPU components like **ALU, Register File, Control Unit, Program Counter, and Instruction Memory**.  
-Simulation is performed using **ModelSim / Vivado**, and functionality is verified through waveform analysis.
+The design includes fundamental CPU components like **ALU, Register File and Instruction Memory**.  
+Simulation is performed using **ModelSim**, and functionality is verified through waveform analysis.
 
 ---
 
@@ -23,14 +23,9 @@ Simulation is performed using **ModelSim / Vivado**, and functionality is verifi
 The processor consists of the following blocks:
 
 - **ALU (Arithmetic Logic Unit)**  
-- **Register File (4 × 4-bit registers)**  
-- **Control Unit**  
-- **Instruction Memory**  
-- **Program Counter (PC)**  
+- **Register File (4 × 4-bit registers)**
 
 ---
-
-## 🧾 Instruction Set Architecture (ISA)
 
 ### Instruction Format (8-bit)
 
@@ -45,7 +40,8 @@ The processor consists of the following blocks:
 
 ---
 ## 🧪 Simulation & Verification
-- Simulated using ModelSim / Vivado Simulator
+
+- Simulated using ModelSim 
 - Verified instruction execution and register updates
 - Waveforms confirm correct ALU operations and data flow
 
